@@ -1,5 +1,4 @@
 N.B: This repo create just for my personal usage. You may can use it or modify it.
-http://wordpress.stackexchange.com/questions/27497/how-to-use-wp-nav-menu-to-create-a-select-menu-dropdown
 ==============
 
 Paste below code locate on functions.php 
@@ -48,6 +47,7 @@ function responsivenavfallback() {
 ```
 
 Use This walker
+
 ```php
 <div class="select-nav">
     <?php wp_nav_menu( 
@@ -65,6 +65,7 @@ Use This walker
 ```
 
 You can adding any style for select menu: e.g:
+
 ```css
 // Style
 .select-nav select {
