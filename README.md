@@ -72,11 +72,16 @@ You can adding any style for select menu: e.g:
 // Style
 .select-nav select {
     width: 100%;
-    color: #FFF;
-    background: #505050;
-    border: 1px solid #DFE0E4;
-    padding: 7px 10px;
+    padding: 5px 10px;
+    border: 2px solid #D8CDD7;
+    background: #16A085;
+    color: #fff;
     clear: both;
+}
+.select-nav select option {
+    color: #FFFFFF;
+    font-size: 16px !important;
+    font-weight: bold !important;
 }
 ```
 
